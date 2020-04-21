@@ -1,0 +1,15 @@
+#  more powerful clone of cat, written in rust
+# act like cat, but still color line
+bat -p README.md
+
+# show all space,tab,etc...
+bat -A README.md
+
+
+# show from line 1 to line 10
+
+bat -r 1:10 README.md
+
+# use syntax of python
+
+bat -l python pyscript.py
